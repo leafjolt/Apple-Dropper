@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "MouseMove",
+    "maps": [
+        {
+            "name": "MouseMove",
+            "id": "153c20e6-5b03-4f2c-9160-9749562d143d",
+            "actions": [
+                {
+                    "name": "MouseMove",
+                    "type": "Value",
+                    "id": "9da88fd9-5240-4a17-872c-2e243da82979",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebdf3616-0fff-4762-bbb2-d61920fb323e",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
