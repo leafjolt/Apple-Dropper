@@ -21,7 +21,10 @@ public class AppleSpawner : MonoBehaviour
         {
             SpawnObject();
             timer = 0f;
-            maxInterval *= 0.98f;
+            if (maxInterval > 0.5f)
+            {
+                maxInterval *= 0.98f;
+            }
             interval = Random.Range(0.0f, maxInterval);
         }
     }
