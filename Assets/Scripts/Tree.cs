@@ -13,7 +13,7 @@ public class Tree : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 9 || transform.position.x < -9)
+        if (transform.position.x > 8 || transform.position.x < -8)
         {
             xSpeed = -xSpeed;
         }
