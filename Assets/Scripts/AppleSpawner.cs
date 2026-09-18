@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class AppleSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject spawnObj;
+    private float maxInterval = 1.0f;
     private float interval = 1.0f;
     private float timer = 0f;
 
@@ -21,7 +21,8 @@ public class AppleSpawner : MonoBehaviour
         {
             SpawnObject();
             timer = 0f;
-            interval *= 0.98f;
+            maxInterval *= 0.98f;
+            interval = Random.Range(0.0f, maxInterval);
         }
     }
 
