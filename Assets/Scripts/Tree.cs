@@ -18,9 +18,9 @@ public class Tree : MonoBehaviour
             xSpeed = -xSpeed;
         }
         transform.position = new Vector2(transform.position.x + Time.deltaTime * xSpeed, transform.position.y);
-        if (Mathf.Abs(xSpeed) < 15)
+        if (Mathf.Abs(xSpeed) < 50)
         {
-            xSpeed *= 1.00005f;
+            xSpeed *= 1.0005f;
         }
     }
 }

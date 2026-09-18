@@ -11,6 +11,6 @@ public class Apple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y - (5 * Time.deltaTime));
+        transform.position = new Vector2(transform.position.x, transform.position.y - (8 * Time.deltaTime));
     }
 }
