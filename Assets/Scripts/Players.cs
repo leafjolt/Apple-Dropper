@@ -29,6 +29,7 @@ public class Players : MonoBehaviour
                 Destroy(player2);
             } else {
                 Destroy(player1);
+                Time.timeScale = 0.0f;
             }
         }
     }
